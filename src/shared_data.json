@@ -1,0 +1,176 @@
+{
+  "basic_info": {
+    "name": "Simon Gonzalez E.",
+    "titles": ["React Developer", "Dev Team lead", "NodeJs Developer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com",
+        "class": "fab fa-instagram"
+      }
+    ],
+    "image": "https://media.licdn.com/dms/image/D4E03AQF51AaVcNMHdA/profile-displayphoto-shrink_800_800/0/1673727835150?e=1720051200&v=beta&t=2UsGHvQNK7sbRpxaSMPIjH-5DQyhHfdb0s_pqpzHcwI"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "CSS",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Angular",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "TypeScript",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "JavaScript",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Sass",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Bootstrap",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Tailwind",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Markdown",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "React",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Nodejs",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Nextjs",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Svelte",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Postgresql",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Vue",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Graphql",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Apollo",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Python",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "MySql",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Swagger",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Vtex",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Webflow",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Docker",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Figma",
+        "level": "border-orange-500"
+      },
+      {
+        "name": "Git",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Vercel",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Aws",
+        "level": "border-white"
+      },
+      {
+        "name": "Postman",
+        "level": "border-sky-500"
+      },
+      {
+        "name": "Jira",
+        "level": "border-sky-500"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Experimentality Labs",
+      "years": "Sep 2023 - Present",
+      "position": "Full Stack Dev",
+      "country": "Spain",
+      "icon": "Vtex"
+    },
+    {
+      "company": "Experimentality Labs",
+      "years": "Apr 2021 - Sep 2023",
+      "position": "Front-End Dev",
+      "country": "Colombia",
+      "icon": "TypeScript"
+    },
+    {
+      "company": "Agaval S.A.",
+      "years": "Jun 2020 - Apr 2021",
+      "position": "Front-End Leader",
+      "country": "Colombia",
+      "icon": "JavaScript"
+    },
+    {
+      "company": "Agaval S.A.",
+      "years": "Dic 2019 - Jun 2020",
+      "position": "Development Assistant",
+      "country": "Colombia",
+      "icon": "MySql"
+    },
+    {
+      "company": "Agaval S.A.",
+      "years": "Mar 2019 - Dic 2019",
+      "position": "Network Infrastructure Assistant",
+      "country": "Colombia",
+      "icon": "Jira"
+    }
+  ]
+}
