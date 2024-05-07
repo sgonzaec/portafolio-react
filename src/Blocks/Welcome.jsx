@@ -6,7 +6,7 @@ import generalData from "../shared_data.json";
 const Welcome = () => {
   return (
     <section
-      className="h-screen text-center flex justify-center flex-col bg-slate-400 text-white"
+      className="h-screen text-center flex justify-center flex-col bg-transparent text-white relative"
       id="home"
     >
       <h1 className="text-3xl uppercase">Welcome to my portfolio</h1>

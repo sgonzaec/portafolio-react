@@ -20,119 +20,119 @@
     "icons": [
       {
         "name": "HTML",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "CSS",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Angular",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "TypeScript",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "JavaScript",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Sass",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Bootstrap",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Tailwind",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Markdown",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "React",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Nodejs",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Nextjs",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "Svelte",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "Postgresql",
-        "level": "border-orange-500"
+        "level": "1"
       },
       {
         "name": "Vue",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "Graphql",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Apollo",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Python",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "MySql",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "Swagger",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "Vtex",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Webflow",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Docker",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "Figma",
-        "level": "border-orange-500"
+        "level": "2"
       },
       {
         "name": "Git",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Vercel",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Aws",
-        "level": "border-white"
+        "level": "3"
       },
       {
         "name": "Postman",
-        "level": "border-sky-500"
+        "level": "1"
       },
       {
         "name": "Jira",
-        "level": "border-sky-500"
+        "level": "1"
       }
     ]
   },

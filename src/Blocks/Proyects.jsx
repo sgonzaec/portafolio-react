@@ -6,7 +6,7 @@ const Proyects = () => {
 
   return (
     <section
-      className="text-center flex justify-center flex-col bg-slate-400 text-white py-8"
+      className="text-center flex justify-center flex-col bg-transparent text-white py-8 relative"
       id="proyects"
     >
       <h2 className="text-2xl py-8">Proyects</h2>
