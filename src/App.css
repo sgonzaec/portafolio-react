@@ -1,9 +1,3 @@
-.arrow {
-  cursor: pointer;
-  align-self: center;
-  margin-top: 10%;
-}
-
 .arrow span {
   display: block;
   width: 1.5vw;
@@ -23,18 +17,8 @@
   animation-delay: -0.4s;
 }
 
-@keyframes animateArrows {
-  0% {
-    opacity: 0;
-    transform: rotate(45deg) translate(-20px, -20px);
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: rotate(45deg) translate(20px, 20px);
-  }
+#titles {
+  animation: animateTitle 3s infinite;
 }
 
 input[type="text"] {
@@ -60,4 +44,30 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+@keyframes animateTitle {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes animateArrows {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
 }

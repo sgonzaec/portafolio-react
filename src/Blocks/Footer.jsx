@@ -17,12 +17,10 @@ const Footer = () => {
         </div>
 
         <div className="copyright py-4 text-center">
-          <div className="container">
-            <small>
-              Copyright &copy;{" "}
-              {generalData.basic_info.name}
-            </small>
-          </div>
+          <small>
+            Copyright &copy; {generalData.basic_info.name}{" "}
+            <span className="font-mono">{"<CodeMasters>"}</span>
+          </small>
         </div>
       </div>
     </footer>

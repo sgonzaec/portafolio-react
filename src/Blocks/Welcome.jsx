@@ -1,3 +1,4 @@
+import Typed from "../Components/Typed/Typed";
 import devIcon from "../assets/devIcon.svg";
 import generalData from "../shared_data.json";
 
@@ -13,11 +14,9 @@ const Welcome = () => {
       <div className="flex justify-center">
         <img src={devIcon} className="w-60" alt="dev logo" />
       </div>
-      <p className="pb-7 text-3xl font-mono uppercase">
-        [{generalData.basic_info.titles[0]}]
-      </p>
-      <h2 className="text-3xl">{generalData.basic_info.name}</h2>
-      <div className="arrow">
+      <Typed titles={generalData.basic_info.titles} />
+      <h2 className="text-3xl mb-7">{generalData.basic_info.name}</h2>
+      <div className="arrow cursor-pointer self-center mt-5 rotate-180">
         <span></span>
         <span></span>
         <span></span>
