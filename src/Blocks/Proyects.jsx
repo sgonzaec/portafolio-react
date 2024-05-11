@@ -5,15 +5,15 @@ const Proyects = () => {
   const { proyectsData } = ProyectsServices();
 
   return (
-    <section
-      className="text-center flex justify-center grid place-content-center flex-col bg-transparent text-white py-8 relative"
-      id="proyects"
-    >
-      <div className="max-w-screen-xl">
-        <h2 className="text-2xl py-8">Proyects</h2>
-        <ul className="grid gap-5 grid-cols-2  mx-5">
-          {proyectsData &&
-            proyectsData
+    proyectsData && (
+      <section
+        className="text-center justify-center grid place-content-center flex-col bg-transparent text-white py-8 relative"
+        id="proyects"
+      >
+        <div className="max-w-screen-xl">
+          <h2 className="text-2xl py-8">Proyects</h2>
+          <ul className="grid gap-5 grid-cols-2  mx-5">
+            {proyectsData
               .filter((filter) => filter.homepage !== null)
               .map((proyect) => {
                 const logo = LanguageLogoByName(proyect.language);
@@ -45,9 +45,10 @@ const Proyects = () => {
                   </li>
                 );
               })}
-        </ul>
-      </div>
-    </section>
+          </ul>
+        </div>
+      </section>
+    )
   );
 };
 

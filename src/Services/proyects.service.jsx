@@ -5,11 +5,13 @@ const ProyectsServices = () => {
   const [loading, isLoading] = useState(false);
   const [proyectsData, setProyectsData] = useState();
 
+  const getData = async () => {
+    const profileResponse = await githubClient.getRepos(isLoading);
+    console.log({profileResponse})
+    setProyectsData(profileResponse);
+  };
+  
   useEffect(() => {
-    const getData = async () => {
-      const profileResponse = await githubClient.getRepos(isLoading);
-      setProyectsData(profileResponse);
-    };
     getData();
   }, []);
 
