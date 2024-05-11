@@ -35,7 +35,7 @@ const About = () => {
               </span>
             </div>
           </div>
-          <div className="flex justify-end">
+          <div className="flex min-[768px]:justify-end max-[768px]:justify-center">
             <div className="w-5/6 self-center border-solid border-2 border-gray-400">
               <div className="relative flex flex-col min-w-0 rounded bg-white">
                 <div className="bg-slate-100">

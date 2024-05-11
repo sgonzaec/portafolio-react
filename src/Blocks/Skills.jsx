@@ -9,7 +9,7 @@ const Skills = () => {
       className="text-center bg-black text-white py-8 relative"
       id="skills"
     >
-      <span className="absolute right-0 grid grid-cols-4 gap-1">
+      <span className="absolute right-0 grid grid-cols-4 min-[768px]:gap-1">
         <p>Level:</p>
         <p
           className="before:content-[''] before:w-2 before:h-2 before:bg-sky-500 before:inline-flex before:rounded-full before:mr-2"
