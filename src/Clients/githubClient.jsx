@@ -7,7 +7,7 @@ const github = {
       return await fetch(`https://api.github.com/users/sgonzaec`, {
         method: "GET",
         headers: {
-            "Authorization": "Bearer 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"
+            "Authorization": `Bearer ${process.env.GitHubSecret}`
         },
       }).then((res) => {
         if (res.status >= 200 && res.status < 300) {
@@ -30,7 +30,7 @@ const github = {
       return await fetch(`https://api.github.com/users/sgonzaec/repos`, {
         method: "GET",
         headers: {
-            "Authorization": "Bearer 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"
+            "Authorization": `Bearer ${process.env.GitHubSecret}`
         },
       }).then((res) => {
         if (res.status >= 200 && res.status < 300) {
