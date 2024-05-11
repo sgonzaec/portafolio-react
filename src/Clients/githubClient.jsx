@@ -7,7 +7,7 @@ const github = {
       return await fetch(`https://api.github.com/users/sgonzaec`, {
         method: "GET",
         headers: {
-            "Authorization": `Bearer ${process.env.GITHUB}`
+            "Authorization": `Bearer ${import.meta.env.VITE_GITHUB}`
         },
       }).then((res) => {
         if (res.status >= 200 && res.status < 300) {
@@ -30,7 +30,7 @@ const github = {
       return await fetch(`https://api.github.com/users/sgonzaec/repos`, {
         method: "GET",
         headers: {
-            "Authorization": `Bearer ${process.env.GITHUB}`
+            "Authorization": `Bearer ${import.meta.env.VITE_GITHUB}`
         },
       }).then((res) => {
         if (res.status >= 200 && res.status < 300) {
