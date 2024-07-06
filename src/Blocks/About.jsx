@@ -1,6 +1,6 @@
-import generalData from "../shared_data.json";
 import reactIcon from "../assets/react.svg";
-
+import PersonalImage from "../assets/image.jpeg"
+ 
 const About = () => {
   return (
     <section className="text-center bg-white py-8 grid place-content-center" id="about">
@@ -12,7 +12,7 @@ const About = () => {
               <span>
                 <img
                   className="w-full shadow-lg bg-white"
-                  src={generalData.basic_info.image}
+                  src={PersonalImage}
                   alt="Avatar-simon"
                 />
                 <div className="flex justify-around items-center mt-3">
