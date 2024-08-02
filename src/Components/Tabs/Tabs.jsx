@@ -14,7 +14,7 @@ const Tabs = () => {
 
   return (
     <section
-      className="text-center text-amber-400 bg-neutral-800 py-8 place-content-center m-auto w-11/12 md:w-full my-5 mx-3 flex md:ml-3 md:mr-7 rounded-2xl "
+      className="text-center text-amber-400 bg-neutral-800 py-8 place-content-center m-auto w-11/12 md:w-full my-5 flex md:ml-3 md:mr-7 rounded-2xl "
       id="tabs"
     >
       <div className="flex flex-col items-center w-full">
