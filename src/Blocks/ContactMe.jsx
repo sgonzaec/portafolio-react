@@ -13,10 +13,10 @@ const Contactme = () => {
 
   return (
     <section
-      className="text-center flex justify-center flex-col max-w-xl m-auto p-8 mb-4 bg-white rounded-lg shadow-md"
+      className="text-center flex justify-center flex-col max-w-xl m-auto p-8 mb-4 bg-transparent border-2 border-dashed border-amber-400 rounded-lg shadow-md"
       id="proyects"
     >
-      <h2 className="text-2xl py-8">Contact Me</h2>
+      <h2 className="text-2xl">Contact Me</h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col">
           <label className="text-start">Name</label>

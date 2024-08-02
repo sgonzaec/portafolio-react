@@ -14,11 +14,9 @@ const Typed = ({ titles }) => {
 
   return (
     <p className="flex justify-center pb-7 text-3xl font-mono uppercase">
-      <h1 id="titles">
-        <span className="tag-title text-black">{"["}</span>
+      <p id="titles">
         {titles[index]}
-        <span className="tag-title text-black">{"]"}</span>
-      </h1>
+      </p>
     </p>
   );
 };

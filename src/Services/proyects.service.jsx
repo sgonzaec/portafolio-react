@@ -7,7 +7,6 @@ const ProyectsServices = () => {
 
   const getData = async () => {
     const profileResponse = await githubClient.getRepos(isLoading);
-    console.log({profileResponse})
     setProyectsData(profileResponse);
   };
   

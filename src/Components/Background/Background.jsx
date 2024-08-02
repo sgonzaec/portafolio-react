@@ -3,7 +3,7 @@ import "./Background.css";
 
 const Background = () => {
   return (
-    <div className="background-content bg-slate-400 w-full h-screen -z-10 fixed">
+    <div className="background-content bg-black w-full h-screen -z-10 fixed top-0">
       <ul className="animated-background">
         <li></li>
         <li></li>

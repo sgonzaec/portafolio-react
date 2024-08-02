@@ -111,6 +111,14 @@
         "level": "2"
       },
       {
+        "name": "Java",
+        "level": "3"
+      },
+      {
+        "name": "SpringBoot",
+        "level": "3"
+      },
+      {
         "name": "Figma",
         "level": "2"
       },
@@ -172,5 +180,12 @@
       "country": "Colombia",
       "icon": "Jira"
     }
+  ],
+  "greetings": [
+    "Hello!",
+    "Hola!",
+    "Bonjour!",
+    "Hallo!",
+    "Ciao!"
   ]
 }

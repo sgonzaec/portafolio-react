@@ -11,8 +11,7 @@ const Proyects = () => {
         id="proyects"
       >
         <div className="max-w-screen-xl">
-          <h2 className="text-2xl py-8">Proyects</h2>
-          <ul className="grid gap-5 grid-cols-2  mx-5">
+          <ul className="grid gap-5 grid-cols-3 mx-5">
             {proyectsData
               .filter((filter) => filter.homepage !== null)
               .map((proyect) => {
@@ -28,20 +27,18 @@ const Proyects = () => {
                       href={proyect.homepage}
                       target="_blank"
                       rel="noreferrer"
-                      className="hover:underline"
+                      className="hover:text-amber-400"
                     >
-                      {proyect.name} &#8599;
+                      <div className="flex content-center cursor-pointer">{proyect.name}{"  "}<span class="material-symbols-outlined cursor-pointer">public</span></div>
                     </a>
                     <a
                       href={proyect.url}
                       target="_blank"
                       rel="noreferrer"
-                      className="hover:text-black"
+                      className="hover:text-amber-400"
                     >
-                      <span className="hover:text-red-600">&#60;</span> Code{" "}
-                      <span className="hover:text-red-600">&#62;</span> &#8599;
+                      <div className="flex content-center cursor-pointer">Code{" "}<span class="material-symbols-outlined cursor-pointer">code</span></div>
                     </a>
-                    <p>Description: {proyect.description}</p>
                   </li>
                 );
               })}

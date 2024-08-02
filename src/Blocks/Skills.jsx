@@ -6,7 +6,7 @@ import getColorById from "../Helpers/ColorExperience";
 const Skills = () => {
   return (
     <section
-      className="text-center bg-black text-white py-8 relative"
+      className="text-center bg-transparent text-white py-8 relative max-w-screen-xl m-auto"
       id="skills"
     >
       <span className="absolute right-0 grid grid-cols-4 min-[768px]:gap-1">
@@ -15,7 +15,7 @@ const Skills = () => {
           className="before:content-[''] before:w-2 before:h-2 before:bg-sky-500 before:inline-flex before:rounded-full before:mr-2"
           id="1"
         >
-          Experienced
+          Expert
         </p>
         <p
           className="before:content-[''] before:w-2 before:h-2 before:bg-orange-500 before:inline-flex before:rounded-full before:mr-2"

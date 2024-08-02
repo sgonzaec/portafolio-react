@@ -13,7 +13,7 @@
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(75, 75, 75, 0.516);
   animation: animateBackground 25s linear infinite;
   bottom: -150px;
 }

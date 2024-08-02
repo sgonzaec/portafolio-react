@@ -30,6 +30,7 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVercel,
+  SiSpring,
   SiVtex,
 } from "react-icons/si";
 
@@ -40,6 +41,7 @@ const LanguageLogo = {
   TypeScript: <SiTypescript size={iconSize} />,
   Python: <FaPython size={iconSize} />,
   Java: <FaJava size={iconSize} />,
+  SpringBoot: <SiSpring size={iconSize} />,
   CSS: <FaCss3Alt size={iconSize} />,
   HTML: <FaHtml5 size={iconSize} />,
   Svelte: <SiSvelte size={iconSize} />,
