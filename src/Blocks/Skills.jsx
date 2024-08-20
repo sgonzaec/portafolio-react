@@ -9,7 +9,7 @@ const Skills = () => {
       className="text-center bg-transparent text-white py-8 relative max-w-screen-xl m-auto"
       id="skills"
     >
-      <span className="absolute right-0 grid grid-cols-4 min-[768px]:gap-1">
+      <span className="absolute right-12 grid grid-cols-4 min-[768px]:gap-1">
         <p>Level:</p>
         <p
           className="before:content-[''] before:w-2 before:h-2 before:bg-sky-500 before:inline-flex before:rounded-full before:mr-2"
@@ -53,11 +53,6 @@ const Skills = () => {
             )
           );
         })}
-        <li
-          className={`flex flex-col bg-slate-800 p-3 rounded justify-self-center justify-between min-h-28 hover:border-solid border-2 border-transparent hover:border-red-500`}
-        >
-          <MdMoreHoriz size={80} /> <p>Soon</p>
-        </li>
       </ul>
     </section>
   );

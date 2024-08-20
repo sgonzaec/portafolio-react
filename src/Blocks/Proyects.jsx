@@ -1,51 +1,81 @@
-import LanguageLogoByName from "../Helpers/logos";
+import SkeletonProyects from "../Components/Skeleton/SkeletonProyects";
 import ProyectsServices from "../Services/proyects.service";
 
 const Proyects = () => {
-  const { proyectsData } = ProyectsServices();
+  const { proyectsData, loading, getImage } = ProyectsServices();
 
-  return (
-    proyectsData && (
+  if (loading) {
+    return (
       <section
         className="text-center justify-center grid place-content-center flex-col bg-transparent text-white py-8 relative"
         id="proyects"
       >
         <div className="max-w-screen-xl">
-          <ul className="grid gap-5 grid-cols-3 mx-5">
-            {proyectsData
-              .filter((filter) => filter.homepage !== null)
-              .map((proyect) => {
-                const logo = LanguageLogoByName(proyect.language);
-                return (
-                  <li
-                    key={proyect.id}
-                    id={proyect.id}
-                    className="flex flex-col items-center"
-                  >
-                    {logo}
-                    <a
-                      href={proyect.homepage}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="hover:text-amber-400"
-                    >
-                      <div className="flex content-center cursor-pointer">{proyect.name}{"  "}<span class="material-symbols-outlined cursor-pointer">public</span></div>
-                    </a>
-                    <a
-                      href={proyect.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="hover:text-amber-400"
-                    >
-                      <div className="flex content-center cursor-pointer">Code{" "}<span class="material-symbols-outlined cursor-pointer">code</span></div>
-                    </a>
-                  </li>
-                );
-              })}
+          <ul className="grid gap-5 grid-cols-2 mx-5">
+            <SkeletonProyects />
           </ul>
         </div>
       </section>
-    )
+    );
+  }
+
+  if (!proyectsData || proyectsData.length === 0) {
+    return <h1>Ups! we have some problems, come here again.</h1>;
+  }
+
+  return (
+    <section
+      className="text-center justify-center grid place-content-center flex-col bg-transparent text-white py-8 relative"
+      id="proyects"
+    >
+      <div className="max-w-screen-xl">
+        <ul className="grid gap-5 grid-cols-2 mx-5">
+          {proyectsData
+            .map((proyect) => {
+              return (
+                <li
+                  key={proyect.id}
+                  id={proyect.id}
+                  className="flex flex-col items-center"
+                >
+                  <a
+                    href={proyect.homepage}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-amber-400"
+                  >
+                    <img
+                      src={getImage(proyect.homepage.split("//")[1])}
+                      alt={`${proyect.name}_Screenshot`}
+                      style={{ width: "450px", height: "200px" }}
+                    />
+                    <div className="flex content-center justify-center cursor-pointer">
+                      {proyect.name}
+                      {"  "}
+                      <span className="material-symbols-outlined cursor-pointer">
+                        open_in_new
+                      </span>
+                    </div>
+                  </a>
+                  <a
+                    href={proyect.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-amber-400"
+                  >
+                    <div className="flex content-center cursor-pointer">
+                      Code{" "}
+                      <span className="material-symbols-outlined cursor-pointer">
+                        code
+                      </span>
+                    </div>
+                  </a>
+                </li>
+              );
+            })}
+        </ul>
+      </div>
+    </section>
   );
 };
 

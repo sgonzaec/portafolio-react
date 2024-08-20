@@ -1,0 +1,27 @@
+[
+  {
+    "name": "AboutMe",
+    "tabId": 1,
+    "icon": "sentiment_very_satisfied"
+  },
+  {
+    "name": "Skills",
+    "tabId": 2,
+    "icon": "fitness_center"
+  },
+  {
+    "name": "Proyects",
+    "tabId": 3,
+    "icon": "workspace_premium"
+  },
+  {
+    "name": "Experience",
+    "tabId": 4,
+    "icon": "stream"
+  },
+  {
+    "name": "Contact Me",
+    "tabId": 5,
+    "icon": "alternate_email"
+  }
+]

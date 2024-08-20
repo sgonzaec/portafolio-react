@@ -4,9 +4,9 @@ const AboutMe = () => {
   return (
     <section className="text-white px-9 h-full content-center max-w-screen-xl m-auto" id="AboutMe">
       <h2 className="text-2xl font-bold mb-4">About Me 👋</h2>
-      <p className="text-lg">Hello :)</p>
+      <button></button>
       <p className="mt-4 text-left">
-        Hello! I'm a software developer with a strong passion for the frontend
+        I'm a software developer with a strong passion for the frontend
         world, particularly in React and everything related to JavaScript. I
         also have extensive experience in ecommerce development with VTEX and
         backend development with Node.js. I love learning and experimenting with

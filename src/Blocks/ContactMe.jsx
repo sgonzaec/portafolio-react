@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-// import { sendEmail } from '../Helpers/SendEmail'
+import { sendEmail } from '../Helpers/SendEmail'
 
 const Contactme = () => {
+  const [sending, isSending] = useState(false);
+
   const {
     register,
     handleSubmit,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => sendEmail(data);
+  const onSubmit = async (data) => await sendEmail(data, isSending);
 
   return (
     <section
@@ -21,7 +23,10 @@ const Contactme = () => {
         <div className="flex flex-col">
           <label className="text-start">Name</label>
           <input
-            className="border-2 rounded my-2"
+            placeholder="Type your name here"
+            minLength={5}
+            maxLength={45}
+            className="border-2 rounded my-2 text-black py-1 px-2"
             {...register("name", { required: true })}
           />
           {errors.exampleRequired && <span>This field is required</span>}
@@ -29,7 +34,8 @@ const Contactme = () => {
         <div className="flex flex-col">
           <label className="text-start">Email</label>
           <input
-            className="border-2 rounded my-2"
+            placeholder="Type your email here"
+            className="border-2 rounded my-2 text-black py-1 px-2"
             {...register("email", { required: true })}
           />
           {errors.exampleRequired && <span>This field is required</span>}
@@ -37,7 +43,10 @@ const Contactme = () => {
         <div className="flex flex-col">
           <label className="text-start">Subject</label>
           <input
-            className="border-2 rounded my-2"
+            placeholder="Type the subjet here"
+            minLength={5}
+            maxLength={60}
+            className="border-2 rounded my-2 text-black py-1 px-2"
             {...register("subject", { required: true })}
           />
           {errors.exampleRequired && <span>This field is required</span>}
@@ -45,13 +54,15 @@ const Contactme = () => {
         <div className="flex flex-col">
           <label className="text-start">Message</label>
           <textarea
-            className="border-2 rounded my-2"
+            placeholder="Type me a message!"
+            maxLength={250}
+            className="border-2 rounded my-2 text-black py-1 px-2"
             {...register("message", { required: true })}
           />
           {errors.exampleRequired && <span>This field is required</span>}
         </div>
 
-        <input type="submit" value={"Send"} />
+        <input type="submit" value={"Send"} disabled={sending}/>
       </form>
     </section>
   );

@@ -12,6 +12,7 @@ const github = {
       }).then((res) => {
         if (res.status >= 200 && res.status < 300) {
           toast.success(`data loaded successfully`);
+          isLoading(false);
           return res.json();
         } else {
           toast.error(`Error loading data`);
@@ -35,6 +36,7 @@ const github = {
       }).then((res) => {
         if (res.status >= 200 && res.status < 300) {
           toast.success(`data loaded successfully`);
+          isLoading(false);
           return res.json();
         } else {
           toast.error(`Error loading data`);
