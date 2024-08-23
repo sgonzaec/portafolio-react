@@ -62,7 +62,7 @@ const Contactme = () => {
           {errors.exampleRequired && <span>This field is required</span>}
         </div>
 
-        <input type="submit" value={"Send"} disabled={sending}/>
+        <button className={`contactme-send-button ${sending && "pointer-events-none text-black bg-slate-500"}`}>{sending ? "Sending" : "Send"}</button>
       </form>
     </section>
   );

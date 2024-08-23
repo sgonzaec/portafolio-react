@@ -1,6 +1,7 @@
 const portafolio = {
-  sendMail: async (body) => {
+  sendMail: async (body, isSending) => {
     isSending(true);
+    console.log("body in client", body)
     try {
       const response = await fetch(
         `https://portafolio-backend-0qxk.onrender.com/api/email/send`,

@@ -41,7 +41,7 @@ const Proyects = () => {
                   href={proyect.homepage}
                   target="_blank"
                   rel="noreferrer"
-                  className="hover:text-amber-400"
+                  className="hover:text-amber-400 cursor-pointer"
                 >
                   <img
                     src={`https://api.screenshotmachine.com?key=${
@@ -51,6 +51,7 @@ const Proyects = () => {
                     }&dimension=450x200&delay=10000`}
                     alt={`${proyect.name}_Screenshot`}
                     style={{ width: "450px", height: "200px" }}
+                    className=" cursor-pointer"
                   />
                   <div className="flex content-center justify-center cursor-pointer">
                     {proyect.name}

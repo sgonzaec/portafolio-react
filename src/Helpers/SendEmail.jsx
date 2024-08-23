@@ -6,7 +6,7 @@ export const sendEmail = async (data, isSending) => {
     from: data.email,
     to: import.meta.env.VITE_EMAIL,
     subject: data.subject,
-    message: data.message,
+    message: `Hola soy: ${data.name} \n Mi mensaje es:${data.message}`,
   };
   toast.promise(Portafolio.sendMail(body, isSending), {
     loading: "Sending...",

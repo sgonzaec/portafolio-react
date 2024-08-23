@@ -47,7 +47,8 @@ input[type="text"] {
   box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type="submit"],
+.contactme-send-button {
   width: 100%;
   background-color: #4caf50;
   color: white;
@@ -58,7 +59,8 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+.contactme-send-button:hover {
   background-color: #45a049;
 }
 
