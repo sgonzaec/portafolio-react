@@ -4,7 +4,7 @@ import { Portafolio } from "../Clients";
 export const sendEmail = async (data, isSending) => {
   const body = {
     from: data.email,
-    to: "simongonzalezechavarria@gmail.com",
+    to: import.meta.env.VITE_EMAIL,
     subject: data.subject,
     message: data.message,
   };
