@@ -7,6 +7,7 @@ import INLogo from "../assets/linkedin_icon.png";
 import Switcher from "../Components/Switcher/Switcher";
 import { useState } from "react";
 import WhatsappButton from "../Components/Buttons/Whatsapp/WhatsappButton";
+import LanguageLogoByName from "../Helpers/logos";
 
 const GeneralInfo = () => {
   const [personalImageSwitcher, setPersonalImageSwitcher] = useState(true);
