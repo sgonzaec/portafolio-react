@@ -29,7 +29,7 @@ const GeneralInfo = () => {
               <Typed titles={generalData.greetings} />
               <p>Simon - FullStack Developer</p>
               <hr className="border-gray-600 my-1" />
-              <p>Medellín, Colombia 🇨🇴 / Valencia, Spain 🇪🇸</p>
+              <p>Medellín, Colombia {LanguageLogoByName('FlagColombia')} / Valencia, Spain {LanguageLogoByName('FlagSpain')}</p>
               <hr className="border-gray-600 my-1" />
               <p>
                 Enthusiastic developer with a passion for creating beautiful and

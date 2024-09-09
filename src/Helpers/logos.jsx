@@ -1,4 +1,5 @@
 import React from "react";
+import { GiSpain, GiColombia } from "react-icons/gi";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import {
   FaJs,
@@ -69,7 +70,9 @@ const LanguageLogo = {
   Docker: <FaDocker size={iconSize} />,
   Postman: <SiPostman size={iconSize} />,
   Whatsapp: <FaWhatsapp />,
-  Jira: <SiJira size={iconSize} />
+  Jira: <SiJira size={iconSize} />,
+  FlagSpain: <GiSpain />,
+  FlagColombia: <GiColombia />
 };
 
 const LanguageLogoByName = (name) => {
