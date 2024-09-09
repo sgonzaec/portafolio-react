@@ -30,8 +30,8 @@ const GeneralInfo = () => {
               <Typed titles={generalData.greetings} />
               <p>Simon - FullStack Developer</p>
               <hr className="border-gray-600 my-1" />
-              <p>Medellín, Colombia {LanguageLogoByName('FlagColombia')}<p>
-              </p>Valencia, Spain {LanguageLogoByName('FlagSpain')}</p>
+              <p className="flex">Medellín, Colombia {LanguageLogoByName('FlagColombia')}</p>
+              <p className="flex">Valencia, Spain {LanguageLogoByName('FlagSpain')}</p>
               <hr className="border-gray-600 my-1" />
               <p>
                 Enthusiastic developer with a passion for creating beautiful and
