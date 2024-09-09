@@ -18,7 +18,7 @@ const GeneralInfo = () => {
     >
       <Switcher personalImageSwitcher={personalImageSwitcher} setPersonalImageSwitcher={setPersonalImageSwitcher}/>
       <div className="max-w-screen-xl">
-        <div className="flex justify-center h-100 overflow-auto">
+        <div className="flex justify-center h-full overflow-auto">
           <div className="inline-block text-start relative m-4 content-center">
             <span>
               <img
