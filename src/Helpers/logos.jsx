@@ -15,6 +15,7 @@ import {
   FaGitAlt,
   FaFigma,
   FaDocker,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { FaWebflow } from "react-icons/fa6";
 import { GrGraphQl, GrMysql } from "react-icons/gr";
@@ -67,6 +68,7 @@ const LanguageLogo = {
   Figma: <FaFigma size={iconSize} />,
   Docker: <FaDocker size={iconSize} />,
   Postman: <SiPostman size={iconSize} />,
+  Whatsapp: <FaWhatsapp />,
   Jira: <SiJira size={iconSize} />
 };
 

@@ -6,6 +6,7 @@ import GHLogo from "../assets/icon_github.png";
 import INLogo from "../assets/linkedin_icon.png";
 import Switcher from "../Components/Switcher/Switcher";
 import { useState } from "react";
+import WhatsappButton from "../Components/Buttons/Whatsapp/WhatsappButton";
 
 const GeneralInfo = () => {
   const [personalImageSwitcher, setPersonalImageSwitcher] = useState(true);
@@ -51,6 +52,8 @@ const GeneralInfo = () => {
                   />
                 </a>
               </div>
+              <hr className="border-gray-600 my-1" />
+              <WhatsappButton />
             </span>
           </div>
         </div>
