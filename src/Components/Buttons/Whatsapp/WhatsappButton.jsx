@@ -10,7 +10,7 @@ const WhatsappButton = () => {
             rel="noopener noreferrer"
             className="flex justify-center items-center px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors duration-300"
         >
-            {LanguageLogoByName('Whatsapp')}{' '} Contacta conmigo
+            {LanguageLogoByName('Whatsapp')}{' '} Contact Me
         </a>
     );
 };
