@@ -1,4 +1,3 @@
-import { MdMoreHoriz } from "react-icons/md";
 import LanguageLogoByName from "../Helpers/logos";
 import generalData from "../shared_data.json";
 import getColorById from "../Helpers/ColorExperience";
