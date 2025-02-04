@@ -11,7 +11,7 @@ function App() {
       <GeneralInfo />
       <Tabs />
       <Toaster position="top-right" reverseOrder={false} />
-      <SplashCursor />
+      {/* <SplashCursor /> */}
     </div>
   );
 }

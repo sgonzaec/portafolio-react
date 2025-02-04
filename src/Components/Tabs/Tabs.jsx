@@ -3,7 +3,7 @@ import Proyects from "../../Blocks/Proyects";
 import Skills from "../../Blocks/Skills";
 import AboutMe from "../../Blocks/AboutMe";
 import Experience from "../../Blocks/Experience";
-import Contactme from "../../Blocks/ContactMe";
+// import Contactme from "../../Blocks/ContactMe";
 import tab_list_data from "./TabsStructure/tab_list_data.json";
 
 const Tabs = () => {

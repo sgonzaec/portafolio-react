@@ -18,10 +18,5 @@
     "name": "Experience",
     "tabId": 4,
     "icon": "stream"
-  },
-  {
-    "name": "Work Together",
-    "tabId": 5,
-    "icon": "alternate_email"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Simon Gonzalez E.",
-    "titles": ["React Developer", "Dev Team lead", "NodeJs Developer"],
+    "titles": ["React Developer", "Dev Team lead", "NodeJs Developer", "NextJs Developer"],
     "social": [
       {
         "name": "github",
@@ -19,16 +19,8 @@
   "skills": {
     "icons": [
       {
-        "name": "HTML",
+        "name": "Vtex",
         "level": "1"
-      },
-      {
-        "name": "CSS",
-        "level": "1"
-      },
-      {
-        "name": "Angular",
-        "level": "2"
       },
       {
         "name": "TypeScript",
@@ -36,6 +28,18 @@
       },
       {
         "name": "JavaScript",
+        "level": "1"
+      },
+      {
+        "name": "Markdown",
+        "level": "1"
+      },
+      {
+        "name": "HTML",
+        "level": "1"
+      },
+      {
+        "name": "CSS",
         "level": "1"
       },
       {
@@ -51,11 +55,31 @@
         "level": "1"
       },
       {
-        "name": "Markdown",
+        "name": "React",
         "level": "1"
       },
       {
-        "name": "React",
+        "name": "Nextjs",
+        "level": "1"
+      },
+      {
+        "name": "Angular",
+        "level": "2"
+      },
+      {
+        "name": "Vue",
+        "level": "1"
+      },
+      {
+        "name": "Svelte",
+        "level": "2"
+      },
+      {
+        "name": "Storybook",
+        "level": "2"
+      },
+      {
+        "name": "Webflow",
         "level": "1"
       },
       {
@@ -63,11 +87,19 @@
         "level": "1"
       },
       {
-        "name": "Nextjs",
+        "name": "Java",
+        "level": "3"
+      },
+      {
+        "name": "Swift",
         "level": "2"
       },
       {
-        "name": "Svelte",
+        "name": "SpringBoot",
+        "level": "3"
+      },
+      {
+        "name": "Python",
         "level": "2"
       },
       {
@@ -75,7 +107,7 @@
         "level": "1"
       },
       {
-        "name": "Vue",
+        "name": "MySql",
         "level": "2"
       },
       {
@@ -87,74 +119,61 @@
         "level": "1"
       },
       {
-        "name": "Python",
-        "level": "2"
-      },
-      {
-        "name": "MySql",
-        "level": "2"
-      },
-      {
         "name": "Swagger",
         "level": "2"
-      },
-      {
-        "name": "Vtex",
-        "level": "1"
-      },
-      {
-        "name": "Webflow",
-        "level": "1"
-      },
-      {
-        "name": "Docker",
-        "level": "2"
-      },
-      {
-        "name": "Java",
-        "level": "3"
-      },
-      {
-        "name": "SpringBoot",
-        "level": "3"
-      },
-      {
-        "name": "Figma",
-        "level": "2"
-      },
-      {
-        "name": "Git",
-        "level": "1"
-      },
-      {
-        "name": "Vercel",
-        "level": "1"
-      },
-      {
-        "name": "Aws",
-        "level": "3"
       },
       {
         "name": "Postman",
         "level": "1"
       },
       {
+        "name": "Googlecloud",
+        "level": "2"
+      },
+      {
+        "name": "Aws",
+        "level": "3"
+      },
+      {
+        "name": "Docker",
+        "level": "2"
+      },
+      {
+        "name": "Vercel",
+        "level": "1"
+      },
+      {
+        "name": "Git",
+        "level": "1"
+      },
+      {
         "name": "Jira",
         "level": "1"
+      },
+      {
+        "name": "Figma",
+        "level": "2"
       }
     ]
   },
   "experience": [
     {
       "company": "Experimentality Labs",
-      "years": "Sep 2023 - Present",
+      "years": "Sep 2024 - Present",
+      "position": "Technical leader",
+      "country": "Spain/Colombia",
+      "icon": "LeaderBoard"
+    },
+    {
+      "company": "Experimentality Labs",
+      "years": "Mar 2023 - Sep 2024",
       "position": "Web Full Stack Dev",
       "country": "Spain",
       "icon": "Vtex"
     },
     {
       "company": "Experimentality Labs",
-      "years": "Apr 2021 - Sep 2023",
+      "years": "Apr 2021 - Mar 2023",
       "position": "Front-End Dev",
       "country": "Colombia",
       "icon": "TypeScript"
@@ -187,5 +206,47 @@
     "Bonjour!",
     "Hallo!",
     "Ciao!"
+  ],
+  "extra_proyects": [
+    {
+      "id": "personal-01",
+      "homepage": "https://www.tiendargos.com.co",
+      "name": "Argos"
+    },
+    {
+      "id": "personal-02",
+      "homepage": "https://www.chevignon.com.co",
+      "name": "Chevignon"
+    },
+    {
+      "id": "personal-03",
+      "homepage": "https://www.ostercolombia.com",
+      "name": "Oster"
+    },
+    {
+      "id": "personal-04",
+      "homepage": "https://www.pcbox.com",
+      "name": "Pcbox"
+    },
+    {
+      "id": "personal-05",
+      "homepage": "https://www.embargosalobestia.com",
+      "name": "Embargosalobestia"
+    },
+    {
+      "id": "personal-06",
+      "homepage": "https://carrot-nextjs-webapp.vercel.app",
+      "name": "Carrot"
+    },
+    {
+      "id": "personal-07",
+      "homepage": "https://www.tiendasbranchos.com",
+      "name": "Brachos"
+    },
+    {
+      "id": "personal-07",
+      "homepage": "https://www.footonmars.com",
+      "name": "Footonmars"
+    }
   ]
 }
